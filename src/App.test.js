@@ -6,3 +6,7 @@ it('renders without crashing', () => {
   const div = document.createElement('div');
   ReactDOM.render(<App />, div);
 });
+
+it('imports mapbox-gl', () => {
+  const mapboxgl = require('mapbox-gl/dist/mapbox-gl.js');
+})
